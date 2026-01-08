@@ -1,0 +1,202 @@
+/* ================================
+   NAVBAR – CORPORATE LAYOUT SYSTEM
+   ================================ */
+
+#site-header .navbar {
+  min-height: 72px;
+  padding: 0 0;
+  background: #ffffff;
+  transition: box-shadow .2s ease, padding .2s ease;
+  z-index: 1030;
+}
+
+#site-header .navbar.navbar-scrolled {
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+/* Brand */
+#site-header .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: 0;
+  font-size: 1.05rem;
+  letter-spacing: .02em;
+}
+
+.site-logo {
+  height: 42px;
+  width: auto;
+}
+
+/* Center container alignment */
+#site-header .navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation */
+#site-header .navbar-nav {
+  gap: .25rem;
+}
+
+#site-header .nav-link {
+  color: #4a5560;
+  padding: .6rem .95rem;
+  font-weight: 500;
+  transition: color .15s ease;
+}
+
+#site-header .nav-link:hover,
+#site-header .nav-link:focus {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+/* CTA Button */
+#site-header .btn-primary {
+  height: 36px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+/* LinkedIn Button */
+.btn-linkedin {
+  height: 36px;
+  width: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #0A66C2;
+  color: #ffffff;
+  border-radius: .375rem;
+  border: none;
+  padding: 0;
+}
+
+.btn-linkedin svg {
+  height: 18px;
+  width: 18px;
+  fill: currentColor;
+}
+
+/* Desktop alignment */
+@media (min-width: 992px) {
+  #site-header .navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+  #site-header .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 991.98px) {
+  #site-header .navbar {
+    min-height: 64px;
+  }
+  .site-logo {
+    height: 38px;
+  }
+}
+
+/* ================================
+   HERO SECTION – PROCMART STYLE
+   ================================ */
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  background: transparent;
+}
+
+.hero-bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Lighter, more professional overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(15, 23, 42, 0.45),
+    rgba(15, 23, 42, 0.55)
+  );
+  z-index: -1;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-text {
+  color: #e5e7eb;
+}
+
+/* ================================
+   ABOUT / WHO WE ARE SECTION
+   ================================ */
+
+.about-section {
+  padding: 5rem 0;
+  background: #ffffff;
+}
+
+.section-eyebrow {
+  font-size: .9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: #475569;
+  margin-bottom: .75rem;
+}
+
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+}
+
+.section-text {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.about-metric {
+  background: #f8fafc;
+  border-radius: .5rem;
+  padding: 1.75rem 1rem;
+}
+
+.about-metric h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: .25rem;
+}
+
+.about-metric p {
+  font-size: .9rem;
+  color: #475569;
+  margin: 0;
+}
