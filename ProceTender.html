@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProcDigi eTender | ARG Supply Tech</title> 
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/ProceTender.css" />
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    
+    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/02/05/10/20260205103950-6EX744UK.js" defer></script>
+
+    
+  </head>
+  <body>
+    <!-- ===================== NAVBAR ===================== -->
+    <header id="site-header">
+      <!-- Copilot: Updated Navbar -->
+
+      <!-- Update the navbar brand to use a company logo image instead of plain text.
+Place the logo on the left with proper alignment.
+Ensure logo scales correctly on different screen sizes.
+Keep brand name available as accessible text for screen readers.
+Do not restructure the navbar or rename classes. -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3 sticky-top"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="assets/ARGlogo.png"
+              alt="ARG Supply Tech Logo"
+              class="site-logo me-2"
+            />
+            <!-- <span class="fw-bold text-dark">ARG Supply Tech</span> -->
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mx-lg-auto align-items-lg-center">
+              <ul class="navbar-nav ms-auto mx-lg-auto align-items-lg-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">Who We Are</a>
+                </li>
+                <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    id="servicesDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Services
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+    <li>
+      <a class="dropdown-item" href="spend.html">
+        Spend Analytics
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="purchaseaas.html">
+        Purchasing as a Service & Tail Spend
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="disposeasas.html">
+        Disposal as a Service
+      </a>
+    </li>
+  </ul>
+</li>
+
+                <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    id="softwaresDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Softwares 
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="softwaresDropdown">
+    <li>
+      <a class="dropdown-item" href="ProceAuction.html">
+        ProcDigi eAuction
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="ProceeRFQ.html">
+        ProcDigi eRFQ
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="ProceTender.html">
+        ProcDigi eTender 
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="ProceApproval.html"> ProcDigi eApproval </a>
+    </li>
+  </ul>
+</li>
+                <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    id="industriesDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Industries
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="industriesDropdown">
+    <li>
+      <a class="dropdown-item" href="automotive .html">
+        Automotive
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="oilgas.html">
+        Oil & Gas
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="metals.html">
+        Metals & Mining
+      </a>
+    </li> 
+    <li>
+      <a class="dropdown-item" href="pharmaceuticals.html">
+        Pharmaceuticals
+      </a>
+    </li>     
+    <li>
+      <a class="dropdown-item" href="fmcg.html">
+        FMCG
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="real-estate.html">
+        Construction & Real Estate
+      </a>
+    </li>
+  </ul>
+</li>
+
+<li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+            <div class="d-flex align-items-center ms-lg-3">
+              <a
+                class="btn btn-primary btn-sm d-none d-lg-inline-flex align-items-center"
+                href="https://supplier.procdigi.com/"
+                role="button"
+                >Supplier Registration</a
+              >
+
+              <a
+                class="btn btn-primary btn-sm d-none d-lg-inline-flex align-items-center ms-2"
+                href="https://procdigi.com/"
+                role="button"
+                >Log in
+              </a>
+            </div>
+          </div>
+
+          
+        </div>
+      </nav>
+    </header>
+
+  <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Smart, Secure, and Seamless Procurement!</h1>
+                <p><strong>Experience the future of fair tendering with ProcDigi eTender Portal.</strong></p>
+                <div class="offerings">
+                    <div class="offering">Tender to Contract Platform: Complete digital sourcing.</div>
+                    <div class="offering">Efficiency and Speed</div>
+                    <div class="offering">Cost Savings</div>
+                    <div class="offering">Broader Reach</div>
+                    <div class="offering">Better Data Management</div>
+                    <div class="offering">Real-time Insights</div>
+                    <div class="offering">Audit-Ready</div> 
+                </div>
+            </div>
+            <div class="hero-media">
+                <!-- Promo Video Placeholder -->
+                <video controls>
+                    <source src="./assets/eTender_promo_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Narrative Section -->
+    <section id="narrative" class="narrative">
+        <div class="container">
+            <h2>Transitioning from Tradition to Technology</h2>
+            <div class="narrative-item">
+                <h3>The Heritage of Trust</h3>
+                <p>Since ancient times, fairness in procurement has relied on the secrecy and integrity of "Sealed Bidding" to ensure confidentiality, equal opportunity, and the prevention of corruption.</p>
+            </div>
+            <div class="narrative-item">
+                <h3>The Traditional Method</h3>
+                <p>Bids were physically submitted in sealed envelopes and opened only at an appointed time in front of witnesses to ensure transparency.</p>
+            </div>
+            <div class="narrative-item">
+                <h3>The Modern Challenge</h3>
+                <p>The manual system is prone to early tampering, information leaks, missing records, human error, and evaluation delays.</p>
+            </div>
+            <div class="narrative-item">
+                <h3>The Digital Leap</h3>
+                <p>eTendering solves these issues by providing enhanced security, transparency, and speed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Feature Spotlight -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Multi-Key Bid Opening</h2>
+            <div class="feature-items">
+                <div class="feature-item">
+                    <h3>Innovative Security</h3>
+                    <p>Bids remain fully encrypted until the submission deadline.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Digital Authority</h3>
+                    <p>Multiple authorities must provide digital approval simultaneously to decrypt and open bids.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Uncompromising Integrity</h3>
+                    <p>No single individual can access or manipulate bids, ensuring 100% fair play.</p>
+                </div>
+            </div>
+            <!-- Flowchart Image Placeholder 
+            <div class="feature-media">
+                <img src="flowchart.png" alt="Flowchart" class="responsive-img">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- User Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>User Benefits & Efficiency</h2>
+            <div class="benefit-category">
+                <h3>Operational Excellence</h3>
+                <ul>
+                    <li>Efficiency and Speed: Significantly faster bidding and evaluation cycles.</li>
+                    <li>Cost Savings: Reduced overhead and administrative costs.</li>
+                    <li>Broader Reach: Connect with a wider pool of suppliers instantly.</li>
+                </ul>
+            </div>
+            <div class="benefit-category">
+                <h3>Transparency & Data</h3>
+                <ul>
+                    <li>Better Data Management: Centralized document management for all records.</li>
+                    <li>Real-time Insights: Instant notifications and automated reminders.</li>
+                    <li>Audit-Ready: Full transparency and confidentiality in every transaction.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced Functional Features -->
+    <section id="advanced" class="advanced-features">
+        <div class="container">
+            <h2>Advanced Functional Features</h2>
+            <ul>
+                <li>Multi-Level Qualification: Ensure only the most qualified vendors participate.</li>
+                <li>Simultaneous Bid Opening: Fair and synchronized access to all submitted bids.</li>
+                <li>Centralized Management: A single source of truth for all procurement documentation.</li>
+            </ul>
+            <!-- Infographic Image Placeholder -->
+            <div class="advanced-media">
+                <img src="assets/eTender_infograph_img.jfif" alt="Infographic" class="responsive-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Procurement Tendering?</h2>
+            <p>Request a demo and experience ProcDigi in action.</p>
+            <a href="requestdemo.html" class="cta-button">Request a Demo</a>
+        </div>
+    </section>
+  <!-- FOOTER EXISTS BELOW -->
+
+  <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Company -->
+          <div class="footer-col">
+            <img
+              src="assets/ARGlogo.png"
+              class="footer-logo"
+              alt="ARG Supply Tech"
+            />
+            <p class="footer-desc">
+              ARG Supply Tech helps organizations transform procurement through
+              intelligent sourcing, digital platforms, and data-driven decision
+              making.
+            </p>
+            <div class="footer-socials">
+              <a href="https://www.linkedin.com/company/arg-supply-tech/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="https://www.youtube.com/@ARGSupplyTekk"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="softwares.html">Softwares</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h5>Get in Touch</h5>
+            <ul class="footer-contact">
+              <li>
+                Email:
+                <a href="mailto:info@argsupplytech.com"
+                  >info@argsupplytech.com</a
+                >
+              </li>
+              <li>Phone: +91 90969 71563</li>
+              <li>
+                Location: Office no 914, Ambrosia Galaxy, Pancard Club Road,
+                Baner High Street, Pune, 411045
+              </li>
+              <li>Business Hours: Mon–Fri, 9AM–6PM</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Legal -->
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="cookies.html">Cookie Policy</a>
+          </div>
+          <p>© 2026 ARG Supply Tech. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  <script src="main.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="js/forms.js"></script>
+
+  </body>
+</html> 
