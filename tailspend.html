@@ -5,7 +5,7 @@ services. html
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Services | ARG Supply Tech</title>
+    <title>Tail Spend Management | ARG Supply Tech</title>
 
     <!-- Bootstrap 5 -->
     <link
@@ -17,7 +17,7 @@ services. html
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/disposeaas.css" />
+    <link rel="stylesheet" href="css/tailspend.css" />
 
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     
@@ -90,13 +90,13 @@ Do not restructure the navbar or rename classes. -->
     </li>
     <li>
       <a class="dropdown-item" href="purchaseaas.html">
-        Purchasing as a Service
+        Purchasing as a Service 
       </a>
     </li>
     <li>
-      <a class="dropdown-item" href="tailspend.html">
-        Tail Spend Management
-      </a>
+        <a class="dropdown-item" href="tailspend.html">
+            Tail Spend Management
+        </a>
     </li>
     <li>
       <a class="dropdown-item" href="disposeasas.html">
@@ -211,42 +211,104 @@ Do not restructure the navbar or rename classes. -->
       </nav>
     </header>
 
-    <!-- SERVICES SECTION -->
-    <section class="services-section">
-      <div class="container">
-        <!-- SERVICE 3 -->
-        <div class="service-card reverse">
-          <div class="service-content">
-            <h2>Disposal as a Service (DaaS)</h2>
-            <p class="service-intro">
-              A structured, transparent, and compliant approach to managing
-              surplus, scrap, and end-of-life assets through e-Auctions and
-              controlled disposal processes.
-            </p>
+    <main>
 
-            <ul class="service-points">
-              <li>Digital disposal of surplus, scrap, and obsolete assets</li>
-              <li>
-                Competitive eAuction-based price discovery maximizing recovery
-              </li>
-              <li>Compliance-ready audit trails and documentation</li>
-              <li>Environmentally responsible and ESG-aligned disposal</li>
-            </ul>
+  <!-- HERO -->
+  <section class="ts-hero">
+    <div class="container">
+      <h1>Tail Spend Management</h1>
+      <p>
+        Transform fragmented, low-value purchases into a strategic advantage with data-driven sourcing,
+        digital tools, and expert-led procurement.
+      </p>
+    </div>
+  </section>
 
-            <p class="service-footer">
-              Our Disposal as a Service model helps organizations unlock hidden
-              value from idle assets while ensuring governance, regulatory
-              compliance, and sustainable practices.
-            </p>
-          </div>
-
-          <div class="service-image">
-            <!-- Suggested image -->
-            <img src="assets/daasimg.png" alt="DaaS Vizual Representation" />
-          </div>
+  <!-- PROBLEM -->
+  <section class="ts-section light">
+    <div class="container">
+      <h2>Challenges in Tail Spend</h2>
+      <div class="ts-grid">
+        <div class="ts-card">
+          <h4>Fragmented Suppliers</h4>
+          <p>Multiple vendors increase complexity and cost of management.</p>
+        </div>
+        <div class="ts-card">
+          <h4>Maverick Buying</h4>
+          <p>Uncontrolled purchases without benchmarking or compliance.</p>
+        </div>
+        <div class="ts-card">
+          <h4>Low Negotiation Power</h4>
+          <p>Low volume and irregular demand reduce bargaining leverage.</p>
+        </div>
+        <div class="ts-card">
+          <h4>High Processing Cost</h4>
+          <p>Large number of small transactions overload finance & AP teams.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="ts-section">
+    <div class="container">
+      <h2>Our Approach</h2>
+      <div class="ts-grid">
+        <div class="ts-card">
+          <h4>Spend Analytics</h4>
+          <p><strong>Data cleansing and insights to identify savings opportunities.</strong></p>
+        </div>
+        <div class="ts-card">
+          <h4>Digital Procurement</h4>
+          <p><strong>Use of ProcDigi eAuction, eRFQ and automation tools for efficiency.</strong></p>
+        </div>
+        <div class="ts-card">
+          <h4>Supplier Rationalization</h4>
+          <p><strong>Consolidate vendors to improve pricing and control.</strong></p>
+        </div>
+        <div class="ts-card">
+          <h4>Rate Contracts</h4>
+          <p><strong>Long-term contracts ensuring consistent pricing and savings.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="ts-section dark">
+    <div class="container">
+      <h2>Business Impact</h2>
+      <div class="ts-grid">
+        <div class="ts-card dark-card">
+          <h4>Cost Reduction</h4>
+          <p>Significant savings through strategic sourcing.</p>
+        </div>
+        <div class="ts-card dark-card">
+          <h4>Improved Compliance</h4>
+          <p>Eliminate uncontrolled and off-contract purchases.</p>
+        </div>
+        <div class="ts-card dark-card">
+          <h4>Faster Turnaround</h4>
+          <p>Better procurement cycle time and efficiency.</p>
+        </div>
+        <div class="ts-card dark-card">
+          <h4>Buyer Focus</h4>
+          <p>Free up teams for strategic sourcing priorities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="ts-cta">
+    <div class="container">
+      <h2>Ready to Optimize Your Tail Spend?</h2>
+      <p><strong>Let ARG Supply Tech help you unlock hidden savings and efficiency.</strong></p>
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    </div>
+  </section>
+
+</main>
 
     <!-- ===================== FOOTER ===================== -->
     <footer class="site-footer">
@@ -328,5 +390,7 @@ Do not restructure the navbar or rename classes. -->
         offset: 120,
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
   </body>
 </html>

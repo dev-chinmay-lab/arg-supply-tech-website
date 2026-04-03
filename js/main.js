@@ -130,5 +130,3 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === modal) modal.style.display = "none";
   });
 });
-
-//etender block
