@@ -1,4 +1,3 @@
-html,
 body {
   height: 100%;
 }
@@ -157,254 +156,183 @@ body {
   margin: auto;
 }
 
-/* PAGE HEADER */
-.page-header {
-  background: linear-gradient(135deg, #1d4ed8, #2563eb);
-  color: #fff;
-  padding: 28px 0;
-  text-align: center;
+/* ================= HERO ================= */
+.paas-hero {
+  padding: 100px 0 60px;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
 }
 
-.page-header h1 {
-  font-size: 2.4rem;
-  margin-bottom: 0px;
-}
-
-.page-header p {
-  font-size: 1rem;
-  opacity: 0.95;
-}
-
-.page-content {
-  padding-top: 40px;
-}
-
-/* SERVICES SECTION */
-.services-section {
-  padding: 70px 0;
-  padding-top: 40px;
-}
-
-/* SERVICE CARD */
-.service-card {
+.hero-flex {
   display: flex;
   align-items: center;
   gap: 50px;
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 45px;
-  margin-bottom: 50px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-.service-card.reverse {
-  flex-direction: row-reverse;
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0f172a;
 }
 
-.service-card:first-child {
-  margin-top: 40px;
+.hero-text p {
+  margin: 20px 0;
+  color: #475569;
+  font-size: 20px;
 }
 
-/* CONTENT */
-.service-content {
-  flex: 1;
+.hero-buttons .btn {
+  margin-right: 10px;
 }
 
-.service-content h2 {
-  font-size: 1.7rem;
-  color: #1d4ed8;
-  margin-bottom: 12px;
+.hero-image img {
+  width: auto;
+  max-width: 450px;
 }
 
-.service-intro {
-  font-size: 0.95rem;
-  margin-bottom: 18px;
-  color: #374151;
-}
-
-.service-points {
-  list-style: none;
-  margin-bottom: 18px;
-}
-
-.service-points li {
-  font-size: 0.9rem;
-  padding-left: 22px;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.service-points li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  color: #2563eb;
-  font-weight: bold;
-}
-
-.service-footer {
-  font-size: 0.9rem;
-  color: #4b5563;
-}
-
-/* IMAGE */
-.service-image {
-  flex: 1;
-  text-align: center;
-}
-
-.service-image img {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-/* Sub Service - Tail Spend */
-.sub-service {
-  margin-top: 40px;
-  padding-top: 30px;
-  border-top: 1px solid #e6e9f0;
-}
-
-.sub-service h3 {
-  font-size: 22px;
-  color: #0b5ed7; /* same brand blue */
-  margin-bottom: 12px;
-}
-
-.sub-service p {
-  color: #4b5563;
-  font-size: 15px;
-  line-height: 1.7;
-  max-width: 720px;
-  margin-bottom: 18px;
-}
-
-.sub-points {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sub-points li {
-  position: relative;
-  padding-left: 26px;
-  margin-bottom: 10px;
-  font-size: 14.5px;
-  color: #374151;
-}
-
-.sub-points li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #0b5ed7;
-  font-weight: bold;
-}
-
-/* Disposal as a Service Section */
-
-.daas-section {
+/* ================= FEATURES ================= */
+.paas-features {
   padding: 80px 0;
-  background-color: #f8fafc;
 }
 
-.service-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.feature-card p {
+  font-size: 18px;
+}
+
+.feature-card i {
+  font-size: 28px;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+/* ================= PROCESS ================= */
+.paas-process {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.process-flex {
+  display: flex;
   align-items: center;
   gap: 60px;
 }
 
-.service-title {
-  font-size: 32px;
-  font-weight: 700;
-  color: #0b5ed7;
-  margin-bottom: 16px;
+.process-text p {
+  font-size: 18px;
 }
 
-.service-intro {
-  font-size: 16px;
-  color: #475569;
-  margin-bottom: 24px;
-  line-height: 1.6;
+.process-text ul {
+  font-size: 18px;
+  margin-top: 20px;
 }
 
-.service-points {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 24px;
-}
-
-.service-points li {
+.process-text li {
+  margin-bottom: 10px;
   position: relative;
-  padding-left: 28px;
-  margin-bottom: 14px;
-  font-size: 15px;
-  color: #334155;
+  padding-left: 20px;
 }
 
-.service-points li::before {
+.process-text li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  top: 0;
-  color: #0b5ed7;
+  color: #2563eb;
+}
+
+.process-image img {
+  width: auto;
+  max-width: 620px;
+}
+
+/* ================= BENEFITS ================= */
+.paas-benefits {
+  padding: 80px 0;
+}
+
+.benefit-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.benefit-card {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-card h3 {
+  font-size: 2rem;
+  color: #2563eb;
+}
+
+.benefit-card p {
+  font-size: 20px;
+}
+
+/* ================= CTA ================= */
+.paas-cta {
+  padding: 70px 0;
+  background: #3172ff;
+  color: #ffffff;
+}
+
+.paas-cta .btn {
+  margin-top: 20px;
+  padding: 10px 25px;
   font-weight: 600;
 }
 
-.service-summary {
-  font-size: 15px;
-  color: #475569;
-  line-height: 1.6;
+.paas-cta p {
+  font-size: 20px;
+  font-style: italic;
 }
 
-.service-visual img {
-  width: 100%;
-  max-width: 420px;
-  display: block;
-  margin-left: auto;
-}
-
-/* Responsive */
+/* ================= RESPONSIVE ================= */
 @media (max-width: 992px) {
-  .service-container {
-    grid-template-columns: 1fr;
+  .hero-flex,
+  .process-flex {
+    flex-direction: column;
     text-align: center;
   }
 
-  .service-visual img {
-    margin: 40px auto 0;
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .service-points li {
-    text-align: left;
-  }
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .service-card,
-  .service-card.reverse {
+  .benefit-grid {
     flex-direction: column;
-    text-align: left;
-  }
-
-  .service-image {
-    margin-top: 20px;
   }
 }
 
 @media (max-width: 600px) {
-  .page-header h1 {
-    font-size: 2rem;
-  }
-
-  .service-card {
-    padding: 30px;
+  .feature-grid {
+    grid-template-columns: 1fr;
   }
 }
 
