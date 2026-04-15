@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request Consultation | ARG Supply Tech</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/consultation.css" />
+    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/02/05/10/20260205103950-6EX744UK.js" defer></script>
+
+  </head>
+
+  <body class="consultation-page">
+    <!-- ===== Page Header ===== -->
+    <section class="page-header">
+      <div class="container text-center">
+        <h1>Request a Free Consultation</h1>
+        <p>
+          Tell us about your requirements and our experts will get in touch.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Form Section ===== -->
+    <section class="consultation-form">
+      <div class="container">
+        <div class="form-card">
+          <form id="consultationForm">
+            <input type="hidden" name="form_type" value="Consultation Form">
+            <input type="text" name="company_website" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <label>Name <span>*</span></label>
+<input
+  type="text"
+  class="form-control"
+  placeholder="Enter your name"
+  name="name"
+  required
+/>
+
+              </div>
+
+              <div class="col-md-6">
+                <label>Contact Number <span>*</span></label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Enter contact number"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label>Email <span>*</span></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter email id"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label>Company Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter company name"
+                  name="Enter company name"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label>Designation</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your designation"
+                  name="Enter your designation"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label>Description</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Briefly describe your requirements"
+                  name="Describe your requirements" 
+                />
+              </div>
+
+              <div class="col-12">
+                <label>Select the Modules You’d Like to Explore</label>
+                <div class="checkbox-group">
+                  <label>
+  <input
+    type="checkbox"
+    name="modules"
+    value="e-Auction"
+  />
+  e-Auction (Transparent bidding & immediate results)
+</label>
+
+                  <label
+                    ><input type="checkbox" name="modules" value="e-RFQ" /> e-RFQ (Digital RFQs for quicker
+                    procurement)</label
+                  >
+                  <label
+                    ><input type="checkbox" name="modules" value="e-Tendering"   /> e-Tendering (Faster tenders &
+                    better competition)</label
+                  >
+                  <label
+                    ><input type="checkbox" name="modules" value="Spend Analytics" /> Spend Analytics (Track & optimize
+                    spend)</label
+                  >
+                  <label>
+                    <input type="checkbox" name="modules" value="Procurement Consulting"   /> Procurement Consulting (Expert
+                    advisory for cost savings)
+                  </label>
+                  <label>
+                    <input type="checkbox" name="modules" value="e-Approval" /> e-Approval (Seamless digital
+                    approvals)
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn-submit">Submit Request</button>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/main.js"></script>
+
+  </body>
+</html>
