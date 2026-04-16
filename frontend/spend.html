@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spend Analytics | ARG Supply Tech</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/spend.css" />
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    
+    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/02/05/10/20260205103950-6EX744UK.js" defer></script>
+
+    
+  </head>
+  <body>
+    <!-- ===================== NAVBAR ===================== -->
+    <header id="site-header">
+      <!-- Copilot: Updated Navbar -->
+
+      <!-- Update the navbar brand to use a company logo image instead of plain text.
+Place the logo on the left with proper alignment.
+Ensure logo scales correctly on different screen sizes.
+Keep brand name available as accessible text for screen readers.
+Do not restructure the navbar or rename classes. -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3 sticky-top"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="assets/ARGlogo.png"
+              alt="ARG Supply Tech Logo"
+              class="site-logo me-2"
+            />
+            <!-- <span class="fw-bold text-dark">ARG Supply Tech</span> -->
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mx-lg-auto align-items-lg-center">
+              <ul class="navbar-nav ms-auto mx-lg-auto align-items-lg-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">Who We Are</a>
+                </li>
+                <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    id="servicesDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Services
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+    <li>
+      <a class="dropdown-item" href="spend.html">
+        Spend Analytics
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="purchaseaas.html">
+        Purchasing as a Service & Tail Spend
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="disposeasas.html">
+        Disposal as a Service
+      </a>
+    </li>
+  </ul>
+</li>
+
+                <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    id="softwaresDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Softwares 
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="softwaresDropdown">
+    <li>
+      <a class="dropdown-item" href="ProceAuction.html">
+        ProcDigi eAuction
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="ProceeRFQ.html">
+        ProcDigi eRFQ
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="ProceTender.html">
+        ProcDigi eTender 
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="ProceApproval.html"> ProcDigi eApproval </a>
+    </li>
+  </ul>
+</li>
+                <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    id="industriesDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Industries
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="industriesDropdown">
+    <li>
+      <a class="dropdown-item" href="automotive .html">
+        Automotive
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="oilgas.html">
+        Oil & Gas
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="metals.html">
+        Metals & Mining
+      </a>
+    </li> 
+    <li>
+      <a class="dropdown-item" href="pharmaceuticals.html">
+        Pharmaceuticals
+      </a>
+    </li>     
+    <li>
+      <a class="dropdown-item" href="fmcg.html">
+        FMCG
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="real-estate.html">
+        Construction & Real Estate
+      </a>
+    </li>
+  </ul>
+</li>
+
+<li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+            <div class="d-flex align-items-center ms-lg-3">
+              <a
+                class="btn btn-primary btn-sm d-none d-lg-inline-flex align-items-center"
+                href="https://supplier.procdigi.com/"
+                role="button"
+                >Supplier Registration</a
+              >
+
+              <a
+                class="btn btn-primary btn-sm d-none d-lg-inline-flex align-items-center ms-2"
+                href="https://procdigi.com/"
+                role="button"
+                >Log in
+              </a>
+            </div>
+          </div>
+
+          
+        </div>
+      </nav>
+    </header>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section">
+      <div class="container">
+        <!-- SERVICE 1 -->
+        <div class="service-card reverse">
+          <div class="service-content">
+            <h2>Spend Analytics</h2>
+            <p class="service-intro">
+              Gain complete visibility into your procurement spend and unlock
+              data-driven opportunities for savings, optimization, and
+              performance improvement.
+            </p>
+
+            <ul class="service-points">
+              <li>Comprehensive visibility across all spend categories</li>
+              <li>
+                Identification of cost-saving and efficiency opportunities
+              </li>
+              <li>Improved vendor management and performance tracking</li>
+              <li>Data-driven decision making for procurement leadership</li>
+            </ul>
+
+            <p class="service-footer">
+              Our analytics framework transforms raw spend data into actionable
+              insights that support smarter procurement strategies.
+            </p>
+          </div>
+
+          <div class="service-image">
+            <!-- Suggested image -->
+            <img
+              src="assets/spendanalyticsimg.png"
+              alt="Spend Analytics Dashboard"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Company -->
+          <div class="footer-col">
+            <img
+              src="assets/ARGlogo.png"
+              class="footer-logo"
+              alt="ARG Supply Tech"
+            />
+            <p class="footer-desc">
+              ARG Supply Tech helps organizations transform procurement through
+              intelligent sourcing, digital platforms, and data-driven decision
+              making.
+            </p>
+            <div class="footer-socials">
+              <a href="https://www.linkedin.com/company/arg-supply-tech/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="https://www.youtube.com/@ARGSupplyTekk"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="softwares.html">Softwares</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h5>Get in Touch</h5>
+            <ul class="footer-contact">
+              <li>
+                Email:
+                <a href="mailto:info@argsupplytech.com"
+                  >info@argsupplytech.com</a
+                >
+              </li>
+              <li>Phone: +91 90969 71563</li>
+              <li>
+                Location: Office no 914, Ambrosia Galaxy, Pancard Club Road,
+                Baner High Street, Pune, 411045
+              </li>
+              <li>Business Hours: Mon–Fri, 9AM–6PM</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Legal -->
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="cookies.html">Cookie Policy</a>
+          </div>
+          <p>© 2026 ARG Supply Tech. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-out-cubic",
+        once: true,
+        offset: 120,
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="js/forms.js"></script>
+
+  </body>
+</html>
