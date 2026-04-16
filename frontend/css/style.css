@@ -134,14 +134,23 @@ section {
   background: transparent;
 }
 
-.hero-bg-video {
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: absolute;
+  z-index: -2;
+}
+
+/* .hero-bg-video {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: -2;
-}
+} */
 
 /* Lighter, more professional overlay */
 .hero-overlay {
@@ -161,6 +170,71 @@ section {
 
 .hero-text {
   color: #e5e7eb;
+}
+
+/* CONTAINER */
+.testimonial-strip {
+  background-color: #f5f7fa;
+  padding: 25px 30px;
+  max-width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  text-align: center; /* ✅ center all text */
+}
+
+/* TEXT */
+.testimonial-text {
+  font-style: italic;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* AUTHOR + STAMP ROW */
+.author-row {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✅ center horizontally */
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* AUTHOR */
+.testimonial-author {
+  font-size: 15px;
+  color: #444;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.4;
+  text-align: center; /* ensures clean alignment */
+}
+
+.testimonial-author span {
+  display: block;
+  color: #777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* STAMP */
+.success-stamp {
+  border: 2px solid #28a745;
+  color: #28a745;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  transform: rotate(-8deg);
+  white-space: nowrap;
+  background-color: #f0fff4;
+}
+
+/* HOVER EFFECT */
+.testimonial-strip:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
 }
 
 /* ================================
